@@ -1,0 +1,50 @@
+body{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: bisque;
+}
+h2{
+
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    padding: 0.2rem;
+}
+
+.time-container{
+
+    text-align: center;
+    margin: 10px auto;
+}
+
+.timeDisplay{
+
+    text-align: center;
+    font-size: 1.8rem;
+    border: 0.3rem solid black;
+    margin: 0px auto;
+    padding: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    min-width: 10rem;
+}
+.dateDisplay{
+
+    text-align: center;
+    font-size: 1.8rem;
+    border: 0.3rem solid black;
+    margin: 0px auto;
+    padding: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    min-width: 10rem;
+}
